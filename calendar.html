@@ -14,8 +14,13 @@
             flex-flow: column;
             align-items: center;
             font-family: "Poppins", serif;
-            background: rgb(238, 174, 202);
             background: radial-gradient(circle, rgb(22, 14, 18) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+
+        .myDiv {
+            text-align: center;
+            transform: scale(0.5);
+            transform-origin: top center;
         }
 
         h1 {
@@ -59,6 +64,7 @@
             padding: 1rem;
             font-weight: 300;
             font-size: 0.9rem;
+            text-align: left;
             box-sizing: border-box;
             background: rgba(255, 255, 255, 0.25);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -74,7 +80,7 @@
             font-weight: 500;
         }
 
-        .birthdate {
+        .birthdate .dates{
             background: #ffffff70;
         }
 
@@ -84,7 +90,7 @@
     </style>
 </head>
 <body>
-
+<div class="myDiv">
     <h1>March 2007</h1>
     <p>The Birth of JASNEER</p>
 
@@ -135,6 +141,7 @@
         <li><time>30</time></li>
         <li><time>31</time></li>
     </ul>
-
+</div>
+    
 </body>
 </html>
