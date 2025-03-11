@@ -2,7 +2,8 @@
 	box-sizing: border-box;
 }
 div {
-    transform: scale(1.2);
+    transform: scale(0.8);
+    transform-origin: top-center;
 }
 body {
 	font-family: 'Gloria Hallelujah', cursive;
