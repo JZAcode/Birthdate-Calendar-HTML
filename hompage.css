@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 div {
-    transform: scale(1.4);
+    transform: scale(2);
     transform-origin: top center;
 }
 body {
