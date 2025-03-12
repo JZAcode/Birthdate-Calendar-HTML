@@ -8,22 +8,13 @@ body {
 }
 
 .myDiv {
-    flex-grow: 1;  /* Pushes footer/content to the bottom */
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: scale(0.3)
+    transform: scale(0.3);
     transform-origin: top center;
 }
 
-
-html, body {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
 
 h1 {
     font-weight: 800;
